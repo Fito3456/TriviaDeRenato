@@ -1,0 +1,105 @@
+#fondo{
+    background-image: url("Noche\ bohemia\ gif.gif");
+}
+#titulo{
+    top: -33px;
+    margin-bottom: 1rem;
+    position: relative;
+    text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.3);
+    border-bottom: 0.5rem solid white;
+    width: 455px;
+    color: white;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+.form-group{
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    position: relative;
+    top: 15px;
+}
+#select1{
+    margin-block: 18px;
+}
+#select2{
+    margin-block: 18px;
+}
+#select3{
+    margin-block: 18px;
+}
+#general{
+    background-image: url(/th\ \(1\)\ \(1\).jpeg);
+}
+#comenzar{
+    background-color: chocolate;
+    position: relative;
+    left: -119px;
+    bottom: -7px;
+}
+#preguntas{
+    color: white;
+    margin-left: 31px;
+}
+.respuesta:hover{
+    cursor: pointer;
+}
+.respuesta{
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 139px;
+    margin-block: 12px;
+    font-family: cursive;
+}
+.respuesta.seleccionada{
+    border: 1px solid gold;
+    background-color: gold;
+    color: black;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+
+.respuesta-correcta{
+    color: black;
+    background-color: lawngreen;
+    border: 1px solid lawngreen;
+    text-align: center;
+}
+.button-90 {
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 100px;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    margin-left: 224px;
+}
+#nueva{
+    background-color: brown;
+    margin-bottom: 31px;
+}
+#ver{
+    background-color: black;
+    margin-bottom: 31px;
+}
+#calificar{
+    background-color: darkgreen;
+    margin-bottom: 31px;
+}
